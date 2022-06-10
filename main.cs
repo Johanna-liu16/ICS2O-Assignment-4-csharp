@@ -33,11 +33,11 @@ class Program
         //Process
         if (size == large)
         {
-           top = 6;
+            top = 6;
         }
         else if (size == extraLarge)
         {
-           top = 10;
+            top = 10;
         }
 
         if (topping == topping1)
@@ -50,11 +50,11 @@ class Program
         }
         else if (topping == topping3)
         {
-           price = 2.5;
+            price = 2.5;
         }
         else if (topping == topping4)
         {
-           price = 3.35;
+            price = 3.35;
         }
 
         tax = (price + top) * 0.13;
